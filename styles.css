@@ -1,0 +1,123 @@
+body {
+    background: #35013f;
+    color: #fff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3 {
+    color: #ff5da2;
+}
+
+nav {
+    background: #b643cd;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.2s;
+}
+
+nav a:hover {
+    color: #99ddcc;
+}
+
+section {
+    background: #4e2065;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 700px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #99ddcc;
+    color: #35013f;
+    display: inline-block;
+    margin: 5px 10px 5px 0;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    border-radius: 50%;
+    border: 4px solid #ff5da2;
+}
+
+form {
+    background: #b643cd;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #fff;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 7px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #fff;
+    color: #35013f;
+}
+
+input[type="submit"] {
+    background: #ff5da2;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background 0.2s;
+}
+
+input[type="submit"]:hover {
+    background: #99ddcc;
+    color: #35013f;
+}
+
+a {
+    color: #ff5da2;
+    margin-right: 10px;
+    text-decoration: underline;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #b643cd;
+    padding: 20px 40px 10px 40px;
+    border-radius: 0 0 20px 20px;
+    margin-bottom: 20px;
+}
+
+.header-container h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+.header-container nav {
+    background: none;
+    padding: 0;
+}

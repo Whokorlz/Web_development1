@@ -97,7 +97,7 @@ input[type="submit"]:hover {
 }
 
 a {
-    color: #ff5da2;
+    color: #be2178;
     margin-right: 10px;
     text-decoration: underline;
 }
@@ -120,4 +120,10 @@ a {
 .header-container nav {
     background: none;
     padding: 0;
+}
+
+table, td , th{
+    font-size: 15px;
+    justify-content: center;
+    border: 1px solid palevioletred;
 }
